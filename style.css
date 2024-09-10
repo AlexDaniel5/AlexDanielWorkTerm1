@@ -113,11 +113,23 @@
     justify-content: space-between;
 }
 
-.tidbits-image {
+.tidbits-image, .projects-image {
     max-width: 400px;
     height: auto;
     margin-left: 20px;
+    margin-right: 20px;
     padding-bottom: 10px;
+}
+
+.projects-image {
+    max-width: 500px;
+}
+
+.projects-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start; /* Align items at the start of the flex container */
+    justify-content: space-between; /* Space between the text and image */
 }
 
 .footer {
