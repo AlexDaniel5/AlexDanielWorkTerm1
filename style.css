@@ -203,6 +203,15 @@
 
 /* To view the website on mobile */
 @media (max-width: 700px) {
+    .general-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .acknowledgements h1 {
+        max-width: 90%;
+    }
+
     .intro-image, .tidbits-image, .projects-image {
         display: none;
     }
