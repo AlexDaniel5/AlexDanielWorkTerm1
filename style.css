@@ -126,11 +126,12 @@
     padding-top: 70px;
 }
 
+/* Paired with projects-text to align the items correctly */
 .projects-container {
     margin-top: 20px;
     display: flex;
-    align-items: flex-start; /* Align items at the start of the flex container */
-    justify-content: space-between; /* Space between the text and image */
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .footer {
