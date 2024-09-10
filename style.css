@@ -209,8 +209,12 @@
         padding-right: 20px;
     }
 
+    /* Naturally takes up too much space */
     .acknowledgements h1 {
         max-width: 90%;
+        word-wrap: break-word;
+        hyphens: auto;
+        text-align: justify;
     }
 
     .intro-image, .tidbits-image, .projects-image {
