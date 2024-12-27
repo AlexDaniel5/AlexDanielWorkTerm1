@@ -39,7 +39,7 @@
     text-shadow: 2px 2px 2px black;
     padding-top: 50px;
     margin-bottom: 0;
-    background-image: url("gryphon.jpg");
+    background-image: url("../images/gryphon.jpg");
     background-position: center center;
     background-color: #464646;
     background-size: cover;
@@ -53,7 +53,7 @@
     padding-top: 8px;
     padding-bottom: 4px;
     background-color: #111;
-    background-image: url('path/to/your-image.jpg');
+    background-image: url('../images/gryphon.jpg');
     background-size: cover;
     background-position: center center;
 }
